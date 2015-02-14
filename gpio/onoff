@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# https://projects.drogon.net/raspberry-pi/gpio-examples/tux-crossing/gpio-examples-1-a-single-led/
+
+gpio mode 0 out
+gpio write 0 1
+sleep 5
+gpio write 0 0
